@@ -69,7 +69,7 @@ Mac 또는 Linux 환경에서 동작하도록 작성되었으며, `screen` 세�
 ## 4. Prover ID 설정
 Nexus Node를 실행할 때, Prover ID를 입력하라는 메시지가 표시될 수 있습니다:
 
-1. 웹 계정 연동 (필수)
+1. 웹 계정 연동 (권장)
    - beta.nexus.xyz 웹사이트에서 로그인 후 Prover ID를 복사해둡니다.
    - 스크립트(또는 첫 실행 시) Prover ID를 입력하면, CLI 기여 내용이 웹 계정과 연동됩니다.
 
