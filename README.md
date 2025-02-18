@@ -72,6 +72,8 @@ Nexus Node를 실행할 때, Prover ID를 입력하라는 메시지가 표시될
 1. 웹 계정 연동 (권장)
    - beta.nexus.xyz 웹사이트에서 로그인 후 Prover ID를 복사해둡니다.
    - 스크립트(또는 첫 실행 시) Prover ID를 입력하면, CLI 기여 내용이 웹 계정과 연동됩니다.
+   - ![image](https://github.com/user-attachments/assets/a087c65c-a25b-4b37-b40a-ada50ff72ee7)
+
 
 2. 랜덤 ID 생성
    - Prover ID 입력을 건너뛰면 자동으로 임의 ID가 생성됩니다.
