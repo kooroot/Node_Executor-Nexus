@@ -17,6 +17,8 @@ screen -S "$SESSION_NAME" -m zsh -c '
     echo "Mac 환경: git 설치 (Homebrew 필요)"
     brew update
     brew install git
+    brew install unzip
+    brew install protobuf
     echo "Rust 설치 (rustup)"
     curl --proto "=https" --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
