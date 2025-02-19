@@ -41,7 +41,7 @@ screen -S "$SESSION_NAME" -m bash -c '
     sudo apt update && sudo apt upgrade -y
 
     echo "[단계] 필수 패키지 설치 (build-essential, pkg-config, etc.)"
-    sudo apt install -y build-essential pkg-config libssl-dev git-all curl screen
+    sudo apt install -y build-essential pkg-config libssl-dev git-all curl screen unzip
 
     ##################################
     # (C) Rust/Cargo 설치
