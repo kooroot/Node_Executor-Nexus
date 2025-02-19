@@ -13,8 +13,8 @@ Mac 또는 Linux 환경에서 동작하도록 작성되었으며, `screen` 세�
   - Rust가 설치되어 있지 않은 경우, `rustup`을 통해 자동으로 설치하고 `$HOME/.cargo/env`를 로드해 `cargo` 명령어를 사용할 수 있도록 설정합니다.
 - **Nexus CLI 설치**  
   - `curl https://cli.nexus.xyz/ | sh` 명령어로 간단히 설치합니다.
-- **Prover ID 설정 안내**  
-  - 웹 계정 연동(권장) 또는 랜덤 ID 생성 방식을 사용합니다.
+- **Node ID 설정 안내**  
+  - NEX 포인트를 얻기 위해서는 웹 계정 연동(필수)을 해야합니다..
   - 시크릿 모드(프라이빗 창), 쿠키 차단 환경에서 발생할 수 있는 주의사항을 안내합니다.
 - **screen 세션 유지**  
   설치가 완료된 뒤에도 `screen` 세션이 종료되지 않으며, 해당 세션에서 셸이 계속 활성화되어 추가 명령 실행이나 로그 확인이 가능합니다.
@@ -67,17 +67,12 @@ Mac 또는 Linux 환경에서 동작하도록 작성되었으며, `screen` 세�
    ```
 
 ## 4. Prover ID 설정
-Nexus Node를 실행할 때, Prover ID를 입력하라는 메시지가 표시될 수 있습니다:
+Nexus Node를 실행할 때, Node ID를 입력하라는 메시지가 표시될 수 있습니다:
 
-1. 웹 계정 연동 (권장)
-   - beta.nexus.xyz 웹사이트에서 로그인 후 Prover ID를 복사해둡니다.
-   - 스크립트(또는 첫 실행 시) Prover ID를 입력하면, CLI 기여 내용이 웹 계정과 연동됩니다.
-   - ![image](https://github.com/user-attachments/assets/a087c65c-a25b-4b37-b40a-ada50ff72ee7)
-
-
-2. 랜덤 ID 생성
-   - Prover ID 입력을 건너뛰면 자동으로 임의 ID가 생성됩니다.
-   - 나중에 웹 계정을 연결하고 싶다면, 다시 ID 설정을 진행해야 합니다.
+1. 웹 계정 연동 (필수)
+   - beta.nexus.xyz 웹사이트에서 로그인 후 Add node의 node id값을 복사해둡니다.
+   - 스크립트(또는 첫 실행 시) node id를 입력하면, CLI 기여 내용이 웹 계정과 연동됩니다.
+   - <img width="635" alt="image" src="https://github.com/user-attachments/assets/4fd92a3f-7d02-4a39-b353-9acf0a155526" />
 
 주의:
 - 시크릿 모드(프라이빗 창), 쿠키/스토리지 차단, 자동 쿠키 삭제, 특정 확장프로그램을 사용하는 경우
