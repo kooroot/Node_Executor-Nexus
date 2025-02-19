@@ -34,6 +34,8 @@ screen -S "$SESSION_NAME" -m zsh -c '
     exit 1
   fi
 
+  rustup target add riscv32i-unknown-none-elf
+
   echo "[단계] Nexus CLI 설치 (curl https://cli.nexus.xyz/ | sh)"
   curl https://cli.nexus.xyz/ | sh
 
