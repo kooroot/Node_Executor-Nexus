@@ -35,7 +35,7 @@ screen -S "$SESSION_NAME" -m zsh -c '
   fi
 
   rustup target add riscv32i-unknown-none-elf
-  cargo build -Zbuild-std
+  cargo build
 
   echo "[단계] Nexus CLI 설치 (curl https://cli.nexus.xyz/ | sh)"
   curl https://cli.nexus.xyz/ | sh
