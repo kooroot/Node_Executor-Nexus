@@ -52,7 +52,7 @@ Mac 또는 Linux 환경에서 동작하도록 작성되었으며, `screen` 세�
 새로운 screen 세션(nexus_node_setup)이 생성되어 Rust 설치 → Nexus CLI 설치 → Prover ID 안내가 진행됩니다.
 설치 완료 후에도 동일 세션 내에서 셸이 유지되므로, 추가 명령을 입력할 수 있습니다.
 
-### [MacOS_upgrade]]
+### [MacOS_upgrade]
 1. **스크립트 다운로드**  
    ```bash
    wget https://raw.githubusercontent.com/kooroot/Node_Executor-Nexus/refs/heads/main/nexus_upgrade_mac.sh
