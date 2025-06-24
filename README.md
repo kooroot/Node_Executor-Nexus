@@ -35,6 +35,23 @@ Mac 또는 Linux 환경에서 동작하도록 작성되었으며, `screen` 세�
 
 ## 3. 사용 방법
 
+### [Testnet 3]
+
+1. **스크립트 다운로드**  
+   ```bash
+   wget https://raw.githubusercontent.com/kooroot/Node_Executor-Nexus/refs/heads/main/nexus_s3.sh
+   ```
+2. **실행 권한 부여**  
+   ```bash
+   chmod +x nexus_s3.sh
+   ```
+3. **스크립트 실행**  
+   ```bash
+   ./nexus_s3.sh
+   ```
+새로운 screen 세션(nexus_node)이 생성되어 Nexus Terms 동의(Y 입력) -> 설치 옵션 선택 및 정보 입력(1(NodeID 기반) or 2(Wallet Address 기반)) -> 노드 구동 확인 순서로 진행됩니다.
+설치 완료 후에 `screen -r nexus_node`로 로그를 확인할 수 있으며, 구동을 유지하면서 세션을 빠져나오기 위해서는 Ctrl + A + D를 입력해 세션을 빠져나오면 됩니다.
+
 ### [Linux_upgrade]
 
 1. **스크립트 다운로드**  
